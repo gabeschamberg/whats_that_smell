@@ -5,7 +5,7 @@ from nxpd import draw
 
 
 def compute_te(x, y, kHistory=3, lHistory=3, knns=[8], numSurrogates=0,
-                   jarLocation='infodynamics.jar', autoEmbed=True,status=True):
+                   jarLocation='../infodynamics.jar', autoEmbed=True,status=True):
 
         if jarLocation is None:
             try:
